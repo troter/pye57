@@ -15,9 +15,9 @@ install:
 
     python --version
 
-    conda install -y xerces-c setuptools
+    conda install -y xerces-c
 
-    python -m pip install --upgrade pip
+    python -m pip install --upgrade pip setuptools
 
     pip install -r C:\projects\pye57\requirements.txt
 
